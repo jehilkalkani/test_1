@@ -20,7 +20,7 @@ int main(void)
         temp = length;
         printf("\n");
         while(temp--) {
-            putchar(rand() % 56 + 65);
+            putchar(rand() % 56 + 66);
             srand(rand());
         }
 
